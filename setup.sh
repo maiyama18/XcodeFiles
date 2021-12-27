@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cp -r . ~/Library/Developer/Xcode/Templates
+cp -r maiyama ~/Library/Developer/Xcode/Templates/
 
