@@ -20,8 +20,12 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     private let viewModel: ___VARIABLE_productName:identifier___ViewModel
     private let router: ___VARIABLE_productName:identifier___Router
 
-    init(viewModel: ___VARIABLE_productName:identifier___ViewModel) {
+    init(
+        viewModel: ___VARIABLE_productName:identifier___ViewModel,
+        router: ___VARIABLE_productName:identifier___Router
+    ) {
         self.viewModel = viewModel
+        self.router = router
         super.init(nibName: nil, bundle: nil)
     }
     
