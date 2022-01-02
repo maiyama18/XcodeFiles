@@ -2,16 +2,6 @@
 
 import Combine
 
-/* paste this
- 
-container.register(___FILEBASENAMEASIDENTIFIER___.self) { _ in
-    ___FILEBASENAMEASIDENTIFIER___(
-        useCase: container.resolve(UseCaseProtocol.self)!
-    )
-}
- 
-*/
-
 @MainActor
 final class ___FILEBASENAMEASIDENTIFIER___ {
     enum Event {
@@ -23,7 +13,7 @@ final class ___FILEBASENAMEASIDENTIFIER___ {
     private let useCase: UseCaseProtocol
 
     init(
-        private let useCase: UseCaseProtocol
+        private let useCase: UseCaseProtocol = UseCase()
     ) {
         self.useCase = useCase
     }

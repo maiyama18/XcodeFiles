@@ -3,17 +3,6 @@
 import UIKit
 import Combine
 
-/* paste this
- 
-container.register(___FILEBASENAMEASIDENTIFIER___.self) { r in
-    ___FILEBASENAMEASIDENTIFIER___(
-        viewModel: r.resolve(___VARIABLE_productName:identifier___ViewModel.self)!,
-        router: ___VARIABLE_productName:identifier___Router()
-    )
-}
-         
-*/
-
 final class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     private var cancellables: [AnyCancellable] = []
 
@@ -21,8 +10,8 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     private let router: ___VARIABLE_productName:identifier___Router
 
     init(
-        viewModel: ___VARIABLE_productName:identifier___ViewModel,
-        router: ___VARIABLE_productName:identifier___Router
+        viewModel: ___VARIABLE_productName:identifier___ViewModel = ___VARIABLE_productName:identifier___ViewModel(),
+        router: ___VARIABLE_productName:identifier___Router = ___VARIABLE_productName:identifier___Router()
     ) {
         self.viewModel = viewModel
         self.router = router
