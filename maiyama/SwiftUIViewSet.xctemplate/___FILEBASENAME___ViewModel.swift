@@ -12,6 +12,7 @@ container.register(___FILEBASENAMEASIDENTIFIER___.self) { _ in
  
 */
 
+@MainActor
 final class ___FILEBASENAMEASIDENTIFIER___ {
     enum Event {
     }
