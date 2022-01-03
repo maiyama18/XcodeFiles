@@ -3,7 +3,7 @@
 import Combine
 
 @MainActor
-final class ___FILEBASENAMEASIDENTIFIER___ {
+final class ___FILEBASENAMEASIDENTIFIER___: ObservableObject {
     enum Event {
     }
     
