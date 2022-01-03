@@ -10,8 +10,8 @@ final class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     private let router: ___VARIABLE_productName:identifier___Router
 
     init(
-        viewModel: ___VARIABLE_productName:identifier___ViewModel = ___VARIABLE_productName:identifier___ViewModel(),
-        router: ___VARIABLE_productName:identifier___Router = ___VARIABLE_productName:identifier___Router()
+        viewModel: ___VARIABLE_productName:identifier___ViewModel,
+        router: ___VARIABLE_productName:identifier___Router
     ) {
         self.viewModel = viewModel
         self.router = router
