@@ -1,5 +1,14 @@
 #!/bin/bash
 
-cp -r Templates/maiyama ~/Library/Developer/Xcode/Templates/
-cp -r Themes/*.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+# Templates
+(
+  cd Templates
+  cp -r * ~/Library/Developer/Xcode/Templates/
+)
+
+# Themes
+(
+  cd Themes
+  cp *.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+)
 
