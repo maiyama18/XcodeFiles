@@ -1,0 +1,7 @@
+# XcodeFiles
+
+## usage
+
+```
+./setup.sh
+```
