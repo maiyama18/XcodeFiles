@@ -12,3 +12,8 @@
   cp *.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
 )
 
+# Misc
+(
+  cd Misc 
+  cp IDETemplateMacros.plist ~/Library/Developer/Xcode/UserData/
+)
